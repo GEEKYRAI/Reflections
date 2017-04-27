@@ -1,0 +1,11 @@
+What happens when you initialize a repository? Why do you need to do it?
+When we initialize a repository a file called .git is formed.We make repository to have a property of version control with us. 
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+Staging area is the intermediate area where we add one by one all the file which will be later bundled up and stored in one commit in repository.
+I don't know much about the value though.
+How can you use the staging area to make sure you have one commit per logical change?
+By using git add we send one by one file to staging area and then by using git commit we send all of them together as a commit in repository.So for 
+one logical change we will add only those file which are affliated with it.
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+If we are making some program and we have two approaches to solve it then we can do it by making a branch for one approach.This will help us in being
+ highly organised.From a common path branches will allow us to move on two different paths in organised manner.
