@@ -9,3 +9,8 @@ one logical change we will add only those file which are affliated with it.
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 If we are making some program and we have two approaches to solve it then we can do it by making a branch for one approach.This will help us in being
  highly organised.From a common path branches will allow us to move on two different paths in organised manner.
+ Git can also help you visualize the branch structure via command git log --graph master coins and git log --graph --oneline master coins where master
+ and coins are main branch and another branch respectively.Here flag oneline ensures that the output we get is shorter and easier to see.
+ How do the diagrams help you visualize the branch structure?
+ The diagrams help us in better visualization and enable us to see clearly where and how much a particular branch was created.
+ 
