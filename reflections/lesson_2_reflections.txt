@@ -13,4 +13,17 @@ If we are making some program and we have two approaches to solve it then we can
  and coins are main branch and another branch respectively.Here flag oneline ensures that the output we get is shorter and easier to see.
  How do the diagrams help you visualize the branch structure?
  The diagrams help us in better visualization and enable us to see clearly where and how much a particular branch was created.
+ git merge master coin merges both commit and create a new commit with default message.git show is the command which will show you what changes were 
+ introduced by a commit compared to its parents.after merging coins with master we can delete coin branch.After deleting we still will have access to
+  this branch via git log.To delete we us ecommand git -d coins.This would not delete the commits in the branch ,it would delete the label.
+The command Caroline mentions to compare a commit to its parent is git show commit_id
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The result of merging two branches together is that we get a fusion between them.If we use git log we will get the commits of both and it will be in 
+order of timespan.If the original document contains code A,B,C and branch 1 contains B,C,D,E and branch 2 contains A,B,D,F then after merging two branches
+namely master and coins we will get new master which will have B,D,E,F.
+git log -n 1 ,the -n flag means git will show only that no. of commits,in this case 1.
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+When we do merges manually we decide ourselves which code to keep and which to delete which works in our favour.
+
+
  
